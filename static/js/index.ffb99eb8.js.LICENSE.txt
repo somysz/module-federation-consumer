@@ -1,11 +1,11 @@
-/*! /home/runner/work/module-federation-consumer/module-federation-consumer/node_modules/react/index.js */
-
 /*! /home/runner/work/module-federation-consumer/module-federation-consumer/node_modules/react-dom/index.js */
 
-/*! ./bootstrap */
-
 /*! react */
+
+/*! ./bootstrap */
 
 /*! react-dom */
 
 /*! react */
+
+/*! /home/runner/work/module-federation-consumer/module-federation-consumer/node_modules/react/index.js */

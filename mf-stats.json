@@ -21,7 +21,7 @@
     },
     "globalName": "main-app",
     "pluginVersion": "0.1.7",
-    "publicPath": "/"
+    "publicPath": "https://somysz.github.io/module-federation-consumer/"
   },
   "shared": [
     {
