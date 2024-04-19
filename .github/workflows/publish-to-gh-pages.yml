@@ -1,0 +1,28 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Set this to your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies and Build (if necessary)
+        run: |
+          npm install
+          npm run build  # Update these commands based on your build process
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
