@@ -1,0 +1,11 @@
+/*! /home/runner/work/module-federation-consumer/module-federation-consumer/node_modules/@module-federation/webpack-bundler-runtime/dist/index.cjs.js */
+
+/*! @module-federation/runtime */
+
+/*! @module-federation/sdk */
+
+/*! ./share.cjs.js */
+
+/*! @module-federation/sdk */
+
+/*! ./constant.cjs.js */

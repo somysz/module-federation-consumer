@@ -1,0 +1,88 @@
+{
+  "id": "main-app",
+  "name": "main-app",
+  "metaData": {
+    "name": "main-app",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "local",
+      "buildName": "main-app"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "main-app",
+    "pluginVersion": "0.1.7",
+    "publicPath": "/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "main-app:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/512.1abfa46b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.2.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "main-app:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "static/js/async/512.1abfa46b.js"
+          ],
+          "sync": [
+            "static/js/async/259.1f533da1.js",
+            "static/js/async/987.8df0f675.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "common",
+      "consumingFederationContainerName": "main-app",
+      "federationContainerName": "common",
+      "moduleName": "button",
+      "usedIn": [
+        "src/App.tsx"
+      ],
+      "entry": "https://somysz.github.io/module-federation-test/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}
