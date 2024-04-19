@@ -6,6 +6,9 @@ export default defineConfig({
   server: {
     port: 2000,
   },
+  output: {
+    assetPrefix: 'https://somysz.github.io/module-federation-consumer'
+  },
   tools: {
     rspack: (config, { appendPlugins }) => {
       appendPlugins([
